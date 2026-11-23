@@ -21,7 +21,7 @@ from urllib.parse import urlencode, quote
 
 CONFIG = {
     "DOMAIN": "node17.botkeep.cloud",
-    "PORT": 57344,
+    "PORT": int(os.getenv("PORT", "57344")),
 
     "MAX_USERS": 100,
     "INITIAL_USERS": 1,
