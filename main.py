@@ -20,7 +20,7 @@ from urllib.parse import urlencode, quote
 # ==========================================
 
 CONFIG = {
-    "DOMAIN": "node17.botkeep.cloud",
+    "DOMAIN": "javaty.shiprr.app",
     "PORT": int(os.getenv("PORT", "57344")),
 
     "MAX_USERS": 100,
