@@ -20,7 +20,7 @@ from urllib.parse import urlencode, quote
 # ==========================================
 
 CONFIG = {
-    "DOMAIN": "javaty.shiprr.app",
+    "DOMAIN": "javaty.shiprr.dev",
     "PORT": int(os.getenv("PORT", "57344")),
 
     "MAX_USERS": 100,
