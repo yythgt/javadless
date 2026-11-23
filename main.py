@@ -20,7 +20,7 @@ from urllib.parse import urlencode, quote
 # ==========================================
 
 CONFIG = {
-    "DOMAIN": "javadless.shiprr.dev",
+    "DOMAIN": "javadless.wasmer.app",
     "PORT": int(os.getenv("PORT", "57344")),
 
     "MAX_USERS": 100,
